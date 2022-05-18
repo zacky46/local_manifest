@@ -17,6 +17,6 @@
         <project path="kernel/xiaomi/sdm660" name="Whyred" remote="fernandobouchet" revision="extended-eas" clone-depth="1" />
   
         <!-- proton-clang -->
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="main" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="main" />
 
 </manifest>
