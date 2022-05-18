@@ -6,8 +6,8 @@
 		fetch="https://github.com/zacky46" />
         <remote name="fernandobouchet"
 		fetch="https://github.com/fernandobouchet" />
-        <remote name="AnggaR96s"
-		fetch="https://gitlab.com/AnggaR96s" />
+        <remote name="kdrag0n"
+		fetch="https://github.com/kdrag0n" />
 
         <!-- Device side things -->
 	<project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="zacky46" revision="SL" clone-depth="1" />
@@ -16,7 +16,7 @@
 	<project path="vendor/dirac" name="vendor_device" remote="zacky46" revision="SL" clone-depth="1" />
         <project path="kernel/xiaomi/sdm660" name="Whyred" remote="fernandobouchet" revision="extended-eas" clone-depth="1" />
   
-        <!-- gengkapak-clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="Clang-GengKapak" remote="AnggaR96s" revision="main" />
+        <!-- proton-clang -->
+        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="main" />
 
 </manifest>
