@@ -6,6 +6,8 @@
 		fetch="https://github.com/zacky46" />
         <remote name="fernandobouchet"
 		fetch="https://github.com/fernandobouchet" />
+        <remote name="PE"
+                fetch="https://github.com/PixelExperience" />
 
         <!-- Device side things -->
 	<project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="zacky46" revision="C12.x" clone-depth="1" />
@@ -14,4 +16,8 @@
 	<project path="vendor/dirac" name="vendor_device" remote="zacky46" revision="SL" clone-depth="1" />
         <project path="kernel/xiaomi/sdm660" name="Whyred" remote="fernandobouchet" revision="extended-eas-haptics" clone-depth="1" />
 
+        <!-- Remove Hals -->
+        <remove-project name="android_hardware_qcom_display" />
+
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="PE" revision="twelve" />
 </manifest>
