@@ -12,6 +12,6 @@
 	<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="zacky46" revision="12.1" clone-depth="1" />
 	<project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="zacky46" revision="12.1" clone-depth="1" />
 	<project path="vendor/dirac" name="vendor_device" remote="zacky46" revision="SL" clone-depth="1" />
-        <project path="kernel/xiaomi/sdm660" name="Whyred" remote="fernandobouchet" revision="extended-eas" clone-depth="1" />
+        <project path="kernel/xiaomi/sdm660" name="Whyred" remote="fernandobouchet" revision="extended-eas-haptics" clone-depth="1" />
 
 </manifest>
