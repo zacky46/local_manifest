@@ -17,9 +17,9 @@
         <project path="kernel/xiaomi/sdm660" name="Whyred" remote="fernandobouchet" revision="extended-eas-haptics" clone-depth="1" />
 
         <!-- Remove Hals -->
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="platform/hardware/qcom/display" />
+        <remove-project name="platform/hardware/qcom/media" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="PE" revision="twelve" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="PE" revision="twelve" />
