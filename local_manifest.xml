@@ -10,7 +10,7 @@
                 fetch="https://github.com/PixelExperience" />
 
         <!-- Device side things -->
-	<project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="zacky46" revision="C12.x" clone-depth="1" />
+	<project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="zacky46" revision="krypton" clone-depth="1" />
 	<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="zacky46" revision="12.1" clone-depth="1" />
 	<project path="vendor/xiaomi" name="vendor_xiaomi-1" remote="zacky46" revision="12.1" clone-depth="1" />
 	<project path="vendor/dirac" name="vendor_device" remote="zacky46" revision="SL" clone-depth="1" />
