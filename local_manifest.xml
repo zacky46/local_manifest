@@ -8,8 +8,8 @@
                 fetch="https://github.com/ArrowOS" />
 
         <!-- Device side things -->
-	<project path="device/xiaomi/ginkgo" name="device_xiaomi_whyred" remote="zacky46" revision="12" clone-depth="1" />
-	<project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="zacky46" revision="12" clone-depth="1" />
+	<project path="device/xiaomi/ginkgo" name="device_xiaomi_whyred" remote="zacky46" revision="12.1" clone-depth="1" />
+	<project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="zacky46" revision="12.1" clone-depth="1" />
 	<project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="zacky46" revision="twelve" clone-depth="1" />
 
         <!-- MIUI Camera -->
